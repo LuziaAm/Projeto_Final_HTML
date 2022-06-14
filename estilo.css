@@ -31,7 +31,10 @@ main {
 
 footer {
     background: #b5b7b8;
-    height: 7rem;
+    height: 3rem;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    font-size: medium;
 }
 
 /* NAV */
