@@ -39,9 +39,10 @@ footer {
 
 /* NAV */
 nav {
-    background: #000000;
+    background: #5c5d5e;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
+    text-align: center;
 }
 
 nav ul {
@@ -50,7 +51,7 @@ nav ul {
 
 nav ul li {
     color: #ecedea;
-    border-right: 1px solid #d4e4ef;
+    border-right: none;
     display: inline-block;
 }
 
@@ -66,7 +67,15 @@ main > header {
     color: #000000;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', sans-serif;
     font-weight: 800;
-}   
+}
+
+.logo{
+    position:static;
+	left: -10px;
+    top: -40px;
+    width: 20%;
+    height: 20%;
+}
 
 .produto { margin-bottom: 20px; cursor: pointer; }
 .produto p {
@@ -75,13 +84,26 @@ main > header {
     padding: 5px 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-.produto p:hover {
-    transform: rotate(-2deg);    
-}
 
 #produtos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     text-align: center;
+    
 }
+.img_home:hover {
+    -moz-transform: scale(1.02);
+    -webkit-transform: scale(1.02);
+    transform: scale(1.02);
+}
+#preco p:hover {
+    transform: rotate(0deg); 
+    background-color: #b5b7b8;
+    color: #000000;   
+}
+.menu_home:hover {
+    background-color: #b5b7b8;
+    color: whitesmoke;
+}
+
